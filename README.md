@@ -1,6 +1,6 @@
 # Benz-Assignment
 
-Project Objective : Application is to create a Microservices backend to securely store data in a file format and allow the user to read and update when required. 
+Project Objective : Application to create a Microservices backend to securely store data in a file format and allow the user to read and update when required. 
                     The backend should support storing the data in both CSV and XML file format.
                     
 Technology Stack : java ,Spring-Boot, Rest API, Microservices, build tool - Gradle.
