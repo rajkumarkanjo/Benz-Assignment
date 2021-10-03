@@ -72,7 +72,10 @@ How To Run :
 	     ![Eureka-Server](https://user-images.githubusercontent.com/29033171/135751090-cbac90f8-1272-404e-adc4-a0c1dee53fb1.jpg)
 
 	  
-	  Once All three 3, Microservice got restarted, you can form the json request as mentioned on this page, and hit the API mentioned in API design.
+	  Once All three 3, Microservice got started, you can form the json request as mentioned on this page and hit the API mentioned in API design.
+	  
+Happy Coding !	  
+	  
 	 
 	 
 	 
