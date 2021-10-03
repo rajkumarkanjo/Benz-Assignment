@@ -49,7 +49,7 @@ API Design :
                c.	Read – to read existing data from the files
 			   
                                              url: http://consumer-service/api/v1/read/{name}
-				                  Method: GET , application/json 
+				                 Method: GET , application/json 
                                              Note : for read operation , name mandatory attributes which will be passed in the uri as path variable.
 					     
 					     
@@ -59,9 +59,9 @@ How To Run :
 	  
           2> GitHUb Repository : https://github.com/rajkumarkanjo/Benz-Assignment.git
 	  
-	  3> create a workspace in your syatem, clone the project from the GitHUb Repository( git clone <repository>)
+	      3> create a workspace in your syatem, clone the project from the GitHUb Repository( git clone <repository>)
 	  
-	  4> Go to File> Open > (select service one by one and import in on your IDE)
+	      4> Go to File> Open > (select service one by one and import in on your IDE)
 	  
 	  Once all the imports has done : 
 	  
