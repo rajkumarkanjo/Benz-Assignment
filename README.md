@@ -55,13 +55,13 @@ API Design :
 					     
 How To Run : 
 
-          1 > System Requirements : JDK 1.8+ version installed, IDE (Eclipse,IntelliJ IDEA).
+          1 > System Requirements : JDK 1.8+ version installed, IDE (Eclipse,IntelliJ IDEA) etc .
 	  
           2> GitHUb Repository : https://github.com/rajkumarkanjo/Benz-Assignment.git
 	  
 	      3> create a workspace in your system, clone the project from the GitHUb Repository( git clone <repository>)
 	  
-	      4> Go to File> Open > (select service one by one and import in on your IDE)
+	      4> Go to File> Open > (select service one by one and import in your IDE)
 	  
 	  Once all the imports has done : 
 	  
