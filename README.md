@@ -63,7 +63,7 @@ How To Run :
 	  
 	      4> Go to File> Open > (select service one by one and import in your IDE)
 	  
-	  Once all the imports has done : 
+	  Once all the imports are done : 
 	  
 	     First Run your Eureka-server Application, http://localhost:8761/ go to this url and check , whether it up or not. once it is up
 	     Run your consumer-service and producer-service Application.
