@@ -24,7 +24,7 @@ High Level Design :  There are 3 Microservices :-
 	 
 	 2 . Consumer-service : This service is to take request from the user and does basic validation and calls the producer-service.
 
-     3 . producer-service : This service will receive the request from consumer-service and based on the fileType(CSV,XML) it will process.
+     3 . Producer-service : This service will receive the request from consumer-service and based on the fileType(CSV,XML) it will process.
 	 
 	 
  All these Microservices are communicating using declarative web service Feign-client.
