@@ -67,12 +67,12 @@ How To Run :
 	  
 	     First Run your Eureka-server Application, http://localhost:8761/ go to this url and check , whether it up or not. once it is up
 	     Run your consumer-service and producer-service Application.
-	     Once both of this Service got started, it will register itself on Eureka Server. you can go and check on the url.
+	     Once both the Services get started, it will register itself on Eureka Server. you can go and check on the url.
 	     
 	     ![Eureka-Server](https://user-images.githubusercontent.com/29033171/135751090-cbac90f8-1272-404e-adc4-a0c1dee53fb1.jpg)
 
 	  
-	  Once All three 3, Microservice got started, you can form the json request as mentioned on this page and hit the API mentioned in API design.
+	  Once All three 3, Microservice are started, you can form the json request as mentioned on this page and hit the API mentioned in API design.
 	  
 Happy Coding !	  
 	  
