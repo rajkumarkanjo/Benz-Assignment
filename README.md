@@ -8,10 +8,10 @@ Technology Stack : java ,Spring-Boot, Rest API, Microservices, build tool - Grad
 
 Request Format : 
                    {
-    "name": "John Raj",
-    "dob": "12-05-2009",
+    "name": "Raj Kumar",
+    "dob": "12-05-1995",
     "salary": "85000",
-    "age": "30"
+    "age": "26"
 }
 
 High Level Design :  There are 3 Microservices :-
