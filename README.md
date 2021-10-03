@@ -59,7 +59,7 @@ How To Run :
 	  
           2> GitHUb Repository : https://github.com/rajkumarkanjo/Benz-Assignment.git
 	  
-	      3> create a workspace in your syatem, clone the project from the GitHUb Repository( git clone <repository>)
+	      3> create a workspace in your system, clone the project from the GitHUb Repository( git clone <repository>)
 	  
 	      4> Go to File> Open > (select service one by one and import in on your IDE)
 	  
