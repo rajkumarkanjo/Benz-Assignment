@@ -27,7 +27,7 @@ High Level Design :  There are 3 Microservices :-
    3 . Consumer-service : This service will receive the request from consumer-service and based on the fileType(CSV,XML) it will process.
 	 
 	 
-	 All these Microservices are cummunicating using declarative web service Feign-client.
+	 All these Microservices are communicating using declarative web service Feign-client.
    
 
  
@@ -35,8 +35,8 @@ API Design :
 
                a.	Store – to save new data 
 			   
-				       	    url: http://consumer-service/api/v1/save
-				      	    Method: POST , application/json 
+				       	          url: http://consumer-service/api/v1/save
+				      	          Method: POST , application/json 
 					          Header: key - fileType , value - CSV/XML
 			    
                b.	Update – to update existing data
@@ -48,7 +48,39 @@ API Design :
 				 
                c.	Read – to read existing data from the files
 			   
-                     url: http://consumer-service/api/v1/read/{name}
-				             Method: GET , application/json 
-                     Note : for read operation , name mandatory attributes which will be passed in the uri as path variable.
+                                             url: http://consumer-service/api/v1/read/{name}
+				                  Method: GET , application/json 
+                                             Note : for read operation , name mandatory attributes which will be passed in the uri as path variable.
+					     
+					     
+How To Run : 
+
+          1 > System Requirements : JDK 1.8+ version installed, IDE (Eclipse,IntelliJ IDEA).
+	  
+          2> GitHUb Repository : https://github.com/rajkumarkanjo/Benz-Assignment.git
+	  
+	  3> create a workspace in your syatem, clone the project from the GitHUb Repository( git clone <repository>)
+	  
+	  4> Go to File> Open > (select service one by one and import in on your IDE)
+	  
+	  Once all the imports has done : 
+	  
+	     First Run your Eureka-server Application, http://localhost:8761/ go to this url and check , whether it up or not. once it is up
+	     Run your consumer-service and producer-service Application.
+	     Once both of this Service got started, it will register itself on Eureka Server. you can go and check on the url.
+	     
+	     ![Eureka-Server](https://user-images.githubusercontent.com/29033171/135751090-cbac90f8-1272-404e-adc4-a0c1dee53fb1.jpg)
+
+	  
+	  Once All three 3, Microservice got restarted, you can form the json request as mentioned on this page, and hit the API mentioned in API design.
+	 
+	 
+	 
+	
+	 
+	 
+	 
+	 
+	 
+					     
 
