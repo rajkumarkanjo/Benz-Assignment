@@ -69,7 +69,7 @@ public class UserConsumerController {
         }
     }
 
-    @GetMapping("/read")
+    @GetMapping("/read/{name}")
     public UserResponseDto readUser(@PathVariable(value="name") String name ) {
 
         log.info("Inside UserConsumer Controller : read");
